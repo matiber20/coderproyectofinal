@@ -1,0 +1,18 @@
+.categorias {
+    position: absolute;
+    display: block;
+    width: 20%;
+    right: 5px;
+    top: 30%;
+}
+
+.categorias__h3 {
+    font-weight: 600;
+}
+
+@media only screen and (max-width:790px) {
+    .categorias{
+        display: none;
+    }
+}
+

@@ -1,0 +1,30 @@
+.blog {
+    width: 100%;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.blog__cards {
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.blog__cards__img {
+    height: 300px;
+    width: 300px;
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+}
+
+.blog__cards__img:hover{
+    transform: rotate(2deg);
+    transition-duration: 0.2s;
+}
+
+.blog input{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+}

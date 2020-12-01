@@ -1,0 +1,22 @@
+#mapa{
+    display: flex;
+    justify-content: center;
+}
+
+#mapa img{
+    width: auto;
+    height: 300px;
+}
+
+.btn-form{
+    color: black;
+    width: 30%;
+    margin: 10px auto;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}

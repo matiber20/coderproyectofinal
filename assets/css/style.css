@@ -1,0 +1,130 @@
+#aboutusprincipal {
+    height: 500px;
+}
+
+
+.btn {
+    color: black;
+}
+
+/*-----Inicio medias---------*/
+
+/* @media only screen and (min-width:1560px){
+
+.cards {
+    height: 500px;
+}
+
+.cards video {
+    height: 80%;
+}
+
+#cursos {
+    height: 80%;
+}
+
+#about {
+    height: 80%;
+}
+
+.cards iframe{
+    height: 80%;
+}
+
+.cards a{
+    font-size: 30px;
+}
+
+} */
+
+
+
+@media only screen and (min-width:768px) and (max-width:1240px){
+    .logo {
+        width: 20%;
+        height: 50px;
+    }
+    
+    .logo h3 {
+        font-size: 30px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
+    
+    #logo {
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .blog{
+        margin-top: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width:1100px) {
+    #social{
+        top:5px;
+        right: 0px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media only screen and (min-width:480px) and (max-width:767px){ 
+
+    .header{
+        background-color: transparent;
+    }
+    
+    .menu-item::after {
+        height: 1px;
+    }
+    
+    .menu-item a{
+       font-size: 10px;
+    }
+
+    #menuProd a{
+        font-size: 10px;
+    }
+    
+    .logo {
+        width: 20%;
+        height: 50px;
+    }
+    
+    .logo h3 {
+        display: none;
+    }
+
+    .logo-footer img{
+        display: none;
+    }
+    
+/*     #logo {
+        position: absolute;
+        height: 80px;
+        top: 30px;
+        left:5px;
+    } */
+
+    .blog{
+        margin-top: 20px;
+    }
+
+    .search{
+        font-size: 10px;
+    }
+    .search input{
+        height: 15px;
+        width: 50%;
+    }
+
+    /* #contacto{
+        
+    } */
+}
+
+

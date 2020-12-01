@@ -1,0 +1,17 @@
+.cursos {
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    height: 200px;
+}
+
+.cursos__card {
+    display: inline-block;
+    width: 100%;
+    margin: 50px 50px 20px;
+}
+
+.cursos__card__img {
+    width: 50%;
+    height: auto;
+}

@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+.form h1{
+    text-shadow: 2px 2px black;
+}
+
 .form legend{
     color: black;
     font-weight: 600;
@@ -35,6 +39,7 @@
     display: flex;
     flex-direction: column;
     text-align: start;
+    text-shadow: 1px 1px black;
 }
 
 

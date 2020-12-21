@@ -259,6 +259,9 @@
   font-size: 20px;
   letter-spacing: 3px; }
 
+.blog__cards h3 {
+  text-shadow: 2px 2px black; }
+
 .cursos {
   display: inline-block;
   width: 90%;
@@ -273,6 +276,9 @@
 .cursos__card__img {
   width: 50%;
   height: auto; }
+
+.cursos__card h3, .cursos__card p {
+  text-shadow: 1px 1px black; }
 
 .categorias {
   position: absolute;

@@ -360,6 +360,13 @@
   padding: 10px;
   color: #fff024; }
 
+.texto {
+  text-shadow: 1px 1px black;
+  font-size: 1.8em;
+  background-color: rgba(128, 128, 128, 0.363);
+  padding: 30px;
+  border-radius: 10px; }
+
 * {
   box-sizing: border-box;
   margin: 0;

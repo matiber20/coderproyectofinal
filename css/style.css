@@ -168,22 +168,40 @@
 
 #mapa {
   display: flex;
-  justify-content: center; }
-
-#mapa img {
-  width: auto;
-  height: 300px; }
+  justify-content: flex-end;
+  margin-top: 1rem;
+  width: 100%; }
 
 .btn-form {
   color: black;
-  width: 30%;
-  margin: 10px auto; }
+  width: 50%;
+  margin: 5px;
+  justify-content: flex-start; }
 
-form {
+.form {
+  width: 100%;
+  text-align: center; }
+
+.form legend {
+  color: black;
+  font-weight: 600; }
+
+.form__items {
   width: 80%;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
   margin: 10px auto; }
+
+.form__items__campo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: start; }
+
+@media only screen and (max-width: 766px) {
+  #mapa {
+    display: none; } }
 
 .icon-instagram:hover {
   color: #c13584; }
@@ -316,6 +334,7 @@ form {
 
 .index__cards iframe {
   width: 100%;
+  height: 300px;
   border: solid 5px rgba(211, 0, 253, 0.575); }
 
 .index__cards img {
@@ -329,10 +348,12 @@ form {
   padding-left: 40%; }
 
 #table table {
-  background-color: #0099ff75; }
+  background-color: rgba(0, 153, 255, 0.829);
+  text-align: center; }
 
 #table table th {
-  color: crimson; }
+  padding: 10px;
+  color: #fff024; }
 
 * {
   box-sizing: border-box;

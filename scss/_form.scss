@@ -1,22 +1,44 @@
 #mapa{
     display: flex;
-    justify-content: center;
-}
-
-#mapa img{
-    width: auto;
-    height: 300px;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .btn-form{
     color: black;
-    width: 30%;
+    width: 50%;
+    margin: 5px;
+    justify-content: flex-start;
+}
+
+.form{
+    width: 100%;
+    text-align: center;
+}
+
+.form legend{
+    color: black;
+    font-weight: 600;
+}
+
+.form__items{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
     margin: 10px auto;
 }
 
-form{
-    width: 80%;
+.form__items__campo{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 10px auto;
+    text-align: start;
+}
+
+@media only screen and (max-width:766px){
+    #mapa{
+        display:none;
+    }
 }
